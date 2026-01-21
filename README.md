@@ -30,8 +30,11 @@
 
 以下展示了 AXON-Net 在 IDD-UR 非结构化道路数据集上的推理效果。模型在保持轻量化的同时，有效捕捉了复杂的道路边界与细微结构。
 
-![AXON-Net Current Inference](figures/当前研究推理图/推理图.png)
-*图 1：AXON-Net 在复杂非结构化场景下的分割表现*
+<p align="center">
+  <img src="figures/当前研究推理图/推理图.png" alt="AXON-Net Current Inference" width="85%" />
+  <br>
+  <em>图 1：AXON-Net 在复杂非结构化场景下的分割表现</em>
+</p>
 
 ### 2. 后续研究进展：低光照/夜间场景 (Future Research: Low-light Scenarios)
 
