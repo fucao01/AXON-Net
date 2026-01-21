@@ -6,15 +6,15 @@
 [![Status](https://img.shields.io/badge/Status-Active_Research-orange)]()
 
 **AXON-Net** 是一种面向**非结构化道路语义分割**的轻量化 U-Net 风格网络。模型引入：
-- **CASAB**：通道-空间注意力（Channel-Spatial Attention）
-- **LightPCT**：轻量化部分上下文变换器（Lightweight Partial Context Transformer）
-- **DPCF-TSE**：细结构增强（Thin-Structure Enhancement）
+- **CASAB**：多统计量融合注意模块（Channel-and-Spatial Attention Block）
+- **LightPCT**：轻量化部分上下文模块 (Light Partial Context Transformer）
+- **DPCF-TSE**：轴向注意细结构增强模块（Dual-Path Channel Fusion and Thin Structure Enhancer）
 
 在保持较低计算成本的同时，兼顾**全局上下文建模**与**边界/细结构恢复**。
 
 > ⚠️ **重要说明**
 > - 本项目目前处于**活跃研究阶段**（正在推进低光照/极端场景扩展研究）。
-> - 因此，本仓库仅开源**核心模型结构定义**与**损失函数实现**，供学术参考。
+> - 因此，本仓库仅开源**核心模型结构定义**与**损失函数**，供学术参考。
 > - 完整训练脚本、预训练权重及清洗后的数据集暂不公开（后续视研究进展决定）。
 
 ---
@@ -33,20 +33,20 @@
 
 ---
 
-## 🧼二、 数据预处理与清洗流程
+## 🧼 二、 数据预处理与清洗流程 (Data Preprocessing & Cleaning Pipeline)
 
-为降低原始数据噪声、并使模型更聚焦于非结构化道路特征，我们对以下公开数据源进行了清洗与重构：
+为降低原始数据噪声并使模型聚焦于非结构化道路特征，我们对公开数据源 **IDD Part I**（印度道路场景全景分割数据）与 **ORFD**（越野/非铺装道路数据）进行了深度清洗。
 
-* **IDD Part I**（印度道路场景全景分割数据的一部分）
-* **ORFD**（越野/非铺装道路相关数据）
+在统一执行二值化、格式校验及异常样本剔除后，我们构建了更匹配本研究目标的专用数据集：
 
-在统一二值化、格式校验、异常样本剔除等流程后，形成更匹配本研究目标的数据集：
+* **IDD-UR (主数据集)**：用于核心训练与验证。
+* **ORFD-AV (辅数据集)**：用于跨域泛化能力评估。
 
-* **IDD-UR**
-* **ORFD-AV**
+> 🔄 **后续研究数据增强 (Data Augmentation for Future Works)**：
+> 为了推进下一阶段关于**低光照**及**极端天气**场景的研究，我们目前正利用 **[img2img-turbo](https://github.com/GaParmar/img2img-turbo)** 框架（基于配对/非配对图像翻译的单步生成模型），对已清洗的 IDD-UR 数据集进行风格迁移，以生成高质量的合成夜间与雨天数据集。
 
-> 数据集当前暂不公开：由于仍在推进后续研究（低光照/夜间与极端场景方向），为保证实验闭环与可控性，暂不发布清洗后的完整数据。
-
+> ⚠️ **数据公开说明**：
+> 由于相关数据集涉及正在进行的后续研究闭环，为保证实验的可控性，清洗后的完整数据及合成数据**暂不公开**。
 ---
 
 ## 🖼️ 三、结果可视化
