@@ -37,14 +37,22 @@
 
 **延续非结构化道路分割这一研究主线**，我们正在积极推进面向低光照、夜间等极端场景的**新型算法研究**。以下展示了我们在该方向上取得的最新进展（部分测试结果基于我们正在研发的新模型）。
 
-| 极端低光照输入 (Input) | 新模型初步推理 (Inference) |
-| :---: | :---: |
-| <img src="figures/未来研究进展持续推进中/01-dark.jpg" width="100%"> | <img src="figures/未来研究进展持续推进中/01inference.jpg" width="100%"> |
-| **样本 01** | **(Dark Scenario)** |
+<p align="center">
+  <strong>极端低光照输入 (Input) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; vs &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 新模型初步推理 (Inference)</strong>
+  <br>
+  <img src="figures/未来研究进展持续推进中/01-dark.jpg" width="45%" />
+  <img src="figures/未来研究进展持续推进中/01inference.jpg" width="45%" />
+  <br>
+  <em>样本 01: Dark Scenario</em>
+</p>
 
 <br>
 
-| 真值 (Ground Truth) | 预测掩膜 (Prediction) |
-| :---: | :---: |
-| <img src="figures/未来研究进展持续推进中/02-GT.png" width="100%"> | <img src="figures/未来研究进展持续推进中/02mask.png" width="100%"> |
-| **样本 02** | **(Mask Comparison)** |
+<p align="center">
+  <strong>真值 (Ground Truth) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; vs &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 预测掩膜 (Prediction)</strong>
+  <br>
+  <img src="figures/未来研究进展持续推进中/02-GT.png" width="45%" />
+  <img src="figures/未来研究进展持续推进中/02mask.png" width="45%" />
+  <br>
+  <em>样本 02: Mask Comparison</em>
+</p>
