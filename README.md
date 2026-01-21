@@ -51,9 +51,9 @@
 
 ## 🖼️ 三、结果可视化
 
-为直观展示 AXON-Net 的阶段性性能与后续研究潜力，我们提供如下推理结果示例。
+为直观展示 AXON-Net 的阶段性性能与后续研究潜力，我们提供如下对比推理结果示例。
 
-### 1）AXON-Net 实验对比推理图（IDD-UR / ORFD-AV）
+### （1）AXON-Net 实验对比推理图（IDD-UR / ORFD-AV）
 
 <p align="center">
   <img src="figures/当前研究推理图/推理图.png" alt="AXON-Net 推理对比图" width="85%" />
@@ -66,7 +66,7 @@
 
 在非结构化道路分割的研究主线基础上，我们正在推进面向**低光照/夜间等极端场景**的更鲁棒分割算法，并探索引入 **Mamba / State Space Models（SSM）** 等线性复杂度方向，以突破传统 CNN/Transformer 在复杂退化场景下的效率与性能瓶颈。以下为阶段性探索结果示例（部分结果来自正在推进的新模型）。
 
-### 2）低光照/夜间样例（阶段性结果）
+### （2）低光照/夜间样例（阶段性结果）
 
 <p align="center">
   <strong>低光照输入（Input） vs 新模型初步推理（Inference）</strong><br>
