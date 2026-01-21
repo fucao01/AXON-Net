@@ -37,8 +37,14 @@
 
 **延续非结构化道路分割这一研究主线**，我们正在积极推进面向低光照、夜间等极端场景的**新型算法研究**。以下展示了我们在该方向上取得的最新进展（部分测试结果基于我们正在研发的新模型）。
 
-![Input 01](figures/未来研究进展持续推进中/01-dark.jpg) ![Inference 01](figures/未来研究进展持续推进中/01inference.jpg)
-*样本 01：极端低光照输入 (左) vs 新模型初步推理结果 (右)*
+| 极端低光照输入 (Input) | 新模型初步推理 (Inference) |
+| :---: | :---: |
+| <img src="figures/未来研究进展持续推进中/01-dark.jpg" width="100%"> | <img src="figures/未来研究进展持续推进中/01inference.jpg" width="100%"> |
+| **样本 01** | **(Dark Scenario)** |
 
-![GT 02](figures/未来研究进展持续推进中/02-GT.png) ![Mask 02](figures/未来研究进展持续推进中/02mask.png)
-*样本 02：真值 GT (左) vs 新模型预测 Mask (右)*
+<br>
+
+| 真值 (Ground Truth) | 预测掩膜 (Prediction) |
+| :---: | :---: |
+| <img src="figures/未来研究进展持续推进中/02-GT.png" width="100%"> | <img src="figures/未来研究进展持续推进中/02mask.png" width="100%"> |
+| **样本 02** | **(Mask Comparison)** |
