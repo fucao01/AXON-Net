@@ -73,14 +73,14 @@
   <img src="figures/未来研究进展持续推进中/01-dark.jpg" width="45%" />
   <img src="figures/未来研究进展持续推进中/01inference.jpg" width="45%" />
 </p>
-<p align="center"><em>样本 01：低光照输入与推理结果对比</em></p>
+<p align="center"><em>图 2：低光照输入与推理结果对比</em></p>
 
 <p align="center">
   <strong>真值（Ground Truth） vs 预测掩膜（Prediction）</strong><br>
   <img src="figures/未来研究进展持续推进中/02-GT.png" width="45%" />
   <img src="figures/未来研究进展持续推进中/02mask.png" width="45%" />
 </p>
-<p align="center"><em>样本 02：GT 与预测 Mask 对比</em></p>
+<p align="center"><em>图 3：GT 与预测 Mask 对比</em></p>
 
 ---
 
