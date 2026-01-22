@@ -6,7 +6,7 @@
 [![Status](https://img.shields.io/badge/Status-Active_Research-orange)]()
 
 **AXON-Net** 是一种面向**非结构化道路语义分割**的轻量化 U-Net 风格网络。模型引入：
-- **CASAB**：多统计量融合注意模块（Channel-and-Spatial Attention Block）
+- **CASAB**：通道-空间注意力模块（Channel-and-Spatial Attention Block）
 - **LightPCT**：轻量化部分上下文模块 (Light Partial Context Transformer）
 - **DPCF-TSE**：轴向注意细结构增强模块（Dual-Path Channel Fusion and Thin Structure Enhancer）
 
