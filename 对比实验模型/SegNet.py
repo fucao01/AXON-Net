@@ -11,7 +11,6 @@ from torchsummary import summary
 
 
 
-__all__ = ["SegNet"]
 
 class SegNet(nn.Module):
     def __init__(self,classes= 2):
