@@ -1,3 +1,8 @@
+######################################################################################
+#Lightweight Real-time Semantic Segmentation Network with Efficient Transformer and CNN
+#Paper-Link: https://arxiv.org/pdf/2302.10484
+######################################################################################
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
