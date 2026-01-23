@@ -11,8 +11,6 @@ from torchvision.models import resnet
 
 
 
-__all__ = ["LinkNet"]
-
 class BasicBlock(nn.Module):
 
     def __init__(self, in_planes, out_planes, kernel_size, stride=1, padding=0, groups=1, bias=False):
