@@ -10,9 +10,6 @@ from torchsummary import summary
 
 
 
-__all__ = ["UNet"]
-
-
 class double_conv(nn.Module):
     '''(conv => BN => ReLU) * 2'''
 
