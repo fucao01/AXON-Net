@@ -8,8 +8,6 @@ import torch.nn.functional as F
 from torchsummary import summary
 
 
-__all__ = ["CGNet"]
-
 class ConvBNPReLU(nn.Module):
     def __init__(self, nIn, nOut, kSize, stride=1):
         """
