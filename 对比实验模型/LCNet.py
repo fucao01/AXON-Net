@@ -1,3 +1,6 @@
+
+
+
 import torch
 import math
 import torch.nn as nn
@@ -6,9 +9,6 @@ from torchsummary import summary
 import time
 
 
-
-import math
-__all__ = ["LCNet"]
 
 class Conv(nn.Module):
     def __init__(self, nIn, nOut, kSize, stride, padding, dilation=(1, 1), groups=1, bn_acti=False, bias=False):
