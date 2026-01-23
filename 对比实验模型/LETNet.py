@@ -8,8 +8,6 @@ from .module.transformer import TransBlock
 
 from .module.patch import reverse_patches
 
-__all__ = ["LETNet"]
-
 
 class Conv(nn.Module):
     def __init__(self, nIn, nOut, kSize, stride, padding, dilation=(1, 1), groups=1, bn_acti=False, bias=False):
