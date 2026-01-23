@@ -1,3 +1,8 @@
+######################################################################################
+#U2-Net: Going Deeper with Nested U-Structure for Salient Object Detection
+#Paper-Link: https://arxiv.org/pdf/2005.09007
+######################################################################################
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
