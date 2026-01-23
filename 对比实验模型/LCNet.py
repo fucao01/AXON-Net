@@ -1,4 +1,7 @@
-
+######################################################################################
+#Lightweight Context-Aware Network Using Partial-Channel Transformation for Real-Time Semantic Segmentation
+#Paper-Link: https://ieeexplore.ieee.org/document/10411824
+######################################################################################
 
 
 import torch
